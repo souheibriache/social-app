@@ -1,0 +1,32 @@
+.rightbar__friend{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.rightbar__profile__imgContainer{
+    margin-right: 10px;
+    position: relative;
+}
+
+.rightbar__profile__profileImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rightbar__online{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    position: absolute;
+    top: -2px;
+    right: 0;
+    border: 2px solid white;
+}
+
+.rightbar__friend__username{
+    font-weight: 500;
+}
